@@ -1,0 +1,20 @@
+{
+    "name": "@bazel/javascript",
+    "description": "Build JavaScript with Bazel",
+    "version": "5.2.0",
+    "keywords": [
+        "javascript",
+        "bazel"
+    ],
+    "homepage": "https://github.com/bazelbuild/rules_nodejs",
+    "repository": "https://github.com/bazelbuild/rules_nodejs",
+    "license": "Apache-2.0",
+    "engines": {
+        "node": ">=12 <=18",
+        "yarn": ">=1.13.0"
+    },
+    "devDependencies": {
+        "@bazel/typescript": "5.2.0",
+        "typescript": "4.4.4"
+    }
+}
