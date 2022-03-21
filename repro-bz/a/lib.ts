@@ -1,3 +1,3 @@
-import {a} from 'ts-project-lib';
+import {a} from 'ts_project_lib';
 
 console.log(a);
