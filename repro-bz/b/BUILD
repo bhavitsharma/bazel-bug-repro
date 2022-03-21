@@ -20,5 +20,5 @@ js_library(
     name = "lib",
     package_name = "ts_project_lib",
     srcs = ["package.json"],
-    deps = [":lib_compile" ]
+    deps = [":lib_compile"]
 )
