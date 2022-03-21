@@ -12,7 +12,8 @@ ts_project(
         },
     },
     extends = "//repro-bz:tsconfig",
-    srcs = [ ":lib.ts" ]
+    srcs = [ ":lib.ts" ],
+    deps = [ "@npm_ts//fp-ts" ]
 )
 
 js_library(
